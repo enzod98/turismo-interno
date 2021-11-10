@@ -1,6 +1,6 @@
 import { ref } from 'vue';
 <template>
-  <q-layout view="hHh lpR fFf">
+  <q-layout view="hHh lpR fff">
     <q-header reveal class="bg-primary text-white q-py-md">
       <q-toolbar class="container row justify-between">
         <q-toolbar-title class="col-3 text-blue"> TURISMO INTERNO </q-toolbar-title>
@@ -48,7 +48,7 @@ import { ref } from 'vue';
       <router-view />
     </q-page-container>
 
-    <q-footer reveal bordered class="bg-grey-8 text-white">
+    <q-footer bordered class="bg-grey-8 text-white">
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
