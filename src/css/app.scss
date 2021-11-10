@@ -1,0 +1,46 @@
+// app global css in SCSS form
+
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 599px) {
+  .container,
+  .container-sm {
+    max-width: 580px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .container,
+  .container-sm,
+  .container-md {
+    max-width: 920px;
+  }
+}
+
+@media (min-width: 1439px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1440px;
+  }
+}
