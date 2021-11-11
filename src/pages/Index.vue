@@ -40,14 +40,34 @@
                   <q-card-section>
                     <div class="text-h6">Cerro Hu</div>
                     <div class="text-subtitle2">Paraguarí</div>
+                    <div class="row justify-center q-mt-sm">
+                        <div  
+                        class="q-mx-xs q-px-xs bg-grey-6 rounded-borders q-mb-sm"
+                        >
+                            <span class="col-1 text-caption text-center text-white">Senderismo</span>
+                        </div>
+                        <div  
+                        class="q-mx-xs q-px-xs bg-grey-6 rounded-borders q-mb-sm"
+                        >
+                            <span class="col-1 text-caption text-center text-white">Eco Aventura</span>
+                        </div>
+                    </div>
                   </q-card-section>
 
                   <q-card-section class="q-pt-none">
                     El Cerro Jhú (Cerro negro) es uno de los emblemas visuales de la ciudad de Paraguarí
                   </q-card-section>
 
-
-                  <StarRating class="q-ml-md" :star-size="20" />
+                  <div class="row no-wrap items-center q-ml-md">
+                    <q-rating 
+                    v-model="rating" 
+                    size="1.5em" 
+                    :max="5" 
+                    color="yellow" 
+                    icon-half="star_half"
+                    />
+                    <span class="text-caption text-grey q-ml-sm">4.2 (551)</span>
+                  </div>
                   <q-card-actions align="right">
                     <q-btn flat>Ver más...</q-btn>
                   </q-card-actions>
@@ -60,15 +80,18 @@
 </template>
 
 <script>
-import { defineComponent } from "vue";
-import StarRating from 'vue-star-rating'
+import { defineComponent, ref } from "vue";
 import SliderGallery from '../components/SliderGallery.vue'
 	
 export default defineComponent({
   components:{
-    SliderGallery,
-    StarRating
+    SliderGallery
   },
-  name: "PageIndex"
+  name: "PageIndex",
+  setup(){
+    return{
+      rating: ref(4.1)
+    }
+  }
 });
 </script>

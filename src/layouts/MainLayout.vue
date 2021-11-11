@@ -3,7 +3,7 @@ import { ref } from 'vue';
   <q-layout view="hHh lpR fff">
     <q-header reveal class="bg-primary text-white q-py-md">
       <q-toolbar class="container row justify-between">
-        <q-toolbar-title class="col-3 text-blue"> TURISMO INTERNO </q-toolbar-title>
+        <q-toolbar-title class="col-3 text-blue">TURISMO INTERNO</q-toolbar-title>
 
         <q-input
           dark
@@ -48,14 +48,41 @@ import { ref } from 'vue';
       <router-view />
     </q-page-container>
 
-    <q-footer bordered class="bg-grey-8 text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
-          </q-avatar>
-          <div>Title</div>
-        </q-toolbar-title>
+    <q-footer bordered class="bg-secondary text-white q-py-xl">
+      <q-toolbar class="container row justify-between">
+        <q-toolbar-title class="col-3 text-white">TURISMO INTERNO</q-toolbar-title>
+
+        <div class="col-3 full-height">
+          <div class="text-weight-bolder text-subtitle1">
+            Sobre Nosotros
+          </div>
+          <ul class="q-pa-none text-blue-6" style="list-style: none;">
+            <li>Misión</li>
+            <li>Visión</li>
+            <li>Objetivos</li>
+          </ul>
+        </div>
+
+        <div class="col-3 full-height">
+          <div class="text-weight-bolder text-subtitle1 q-pl-xl">
+            Contacto
+          </div>
+          <div class="q-pa-none text-blue-6" >
+              <q-btn
+                flat
+                icon="lab la-facebook"
+              />
+              <q-btn
+                flat
+                icon="lab la-instagram"
+              />
+              <q-btn
+                flat
+                icon="lab la-twitter"
+              />
+          </div>
+        </div>
+        
       </q-toolbar>
     </q-footer>
   </q-layout>
