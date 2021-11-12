@@ -9,7 +9,7 @@
         <div class="column no-wrap">
             <div class="row items-center q-mb-lg">
                 <span 
-                class="text-h5 text-uppercase text-center col-12 font-carter-one"
+                class="text-h5 text-uppercase text-center col-12"
                 > 
                     Categorías
                 </span>
@@ -31,13 +31,13 @@
         <div class="column no-wrap">
             <div class="row items-center q-mb-lg">
                 <span 
-                class="text-h5 text-uppercase text-center col-12 font-carter-one"
+                class="text-h5 text-uppercase text-center col-12"
                 > 
                     Los más populares
                 </span>
             </div>
             <div class="row justify-center">
-                <q-card class="my-card col-3 q-ma-sm resaltar-hover" v-for="(lugar, index) in places" :key="index" >
+                <q-card class="my-card col-3 q-ma-sm resaltar-hover flex flex-column justify-between" v-for="(lugar, index) in places" :key="index" >
                   <img :src="`/imgs/${ lugar.id }/cover.png`">
 
                   <q-card-section>
@@ -69,8 +69,8 @@
                     />
                     <span class="text-caption text-grey q-ml-sm">{{ lugar.califMedia }} ({{ lugar.cantVotos }})</span>
                   </div>
-                  <q-card-actions align="right">
-                    <q-btn flat :to="`/sitio/${ lugar.id }`">Ver más...</q-btn>
+                  <q-card-actions align="center" class="full-width">
+                    <q-btn class="full-width" :to="`/sitio/${ lugar.id }`">Ver más</q-btn>
                   </q-card-actions>
                 </q-card>
             </div>

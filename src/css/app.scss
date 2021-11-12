@@ -4,6 +4,31 @@ a{
   color: black;
 }
 
+@font-face {
+  font-family: 'Carter One';
+  src: url(./fonts/CarterOne-Regular.woff);
+}
+
+@font-face {
+  font-family: 'Georama';
+  src: url(./fonts/Georama-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: 'Georama';
+  font-style: italic;
+  src: url(./fonts/Georama-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+.font-carter-one {
+  font-family: 'Carter One';
+}
+
+.font-georama {
+  font-family: 'Georama';
+}
+
+
 .container,
 .container-sm,
 .container-md,
