@@ -31,7 +31,7 @@ export default function () {
         color: "green-7"
       },
       {
-        label: "plazas",
+        label: "cascadas",
         color: "red-7"
       },
       {

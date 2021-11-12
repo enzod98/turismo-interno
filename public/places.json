@@ -15,6 +15,21 @@
         }
     },
     {
+        "id": "museo-judio",
+        "titulo": "Museo Judío del Paraguay",
+        "ciudad": "Asunción",
+        "actividades": ["museos", "cultural"],
+        "desCorta": "En el Museo Judío del Paraguay se exponen objetos de valor histórico, documental y artístico. Tres salas temáticas permiten al visitante acceder al complejo entorno simbólico de la cultura hebrea, con una reflexiva mirada al holocausto y aspectos destacados de la presencia de los judíos en el Paraguay.",
+        "desLarga": "En el Museo Judío del Paraguay se exponen objetos de valor histórico, documental y artístico. Tres salas temáticas permiten al visitante acceder al complejo entorno simbólico de la cultura hebrea, con una reflexiva mirada al holocausto y aspectos destacados de la presencia de los judíos en el Paraguay. \nTras pasar por una antesala que contiene un Menorá de bronce y explicaciones sobre el sentido del complejo, se accede a la Sala Roja, que abarca objetos de las tradiciones y la cultura judía. En vitrinas se pueden ver la Torá y el Talmud, así como el libro de la diáspora judía. Encima está la tabla de la ley con los diez mandamientos escritos en hebreo. Es una artística representación dorada con una corona y dos leones tallados que sostienen el texto. Hay libros de rezos y rollos de la Torá. Un óleo que representa la fusión de culturas muestra a un hombre judío que enseña al niño las sagradas escrituras, mientras la madre de rasgos indígenas observa la escena. En otro exhibidor están el Talit, el manto que usan los hombres para rezar, así como la Kipá y el Tefilín.\nLa segunda, la Sala Negra, tiene que ver con el holocausto. Sus paredes pintadas de negro recuerdan los nombres de los campos de exterminio y la cantidad de gente fallecida en tiempos de la Segunda Guerra Mundial (1939-1945). Grandes fotografías muestran la forma en que vivían en los campos de concentración y hay dos pantallas de video que pasan imágenes en forma continua. Alambres de púa y maniquíes vestidos con el uniforme a rayas impresionan en este espacio. Protegida por cristal, una telita con la estrella de David en amarillo y la inscripción “Jude” que usaban los judíos como identificación discriminativa en tiempos del holocausto. Un cuadro firmado por Bernardo Ismachowiez, titulado Teorema XXIV, expresa un rostro humano que se convierte en cenizas, tras pasar por una chimenea. \nLa Sala Azul, la tercera, se llama Sala de la Esperanza. Y aquí están unidas las banderas de Israel y Paraguay y en medio la lapicera con que el doctor César Vasconcellos firmó el telegrama con el voto paraguayo a favor de la partición de Palestina y la creación del Estado de Israel, en 1947. Un óleo eterniza la figura de Benjamín Sapira, primer cónsul israelita en Asunción. Hay una serie de documentos de identidad y fotos de personas que vinieron al país para iniciar una nueva vida. Profesionales sobresalientes como Isaac Kostianovsky, Mauricio Schwartzmann y Walter Kochmann aparecen en una galería especial con sus retratos. Un lote de instrumentos musicales: guitarra, contrabajo, mandolina, una tuba y un piano, donado por la familia Kemper, valorizan el aspecto musical de los sonidos judíos.",
+        "califMedia": 4.3,
+        "cantVotos": 59,
+        "lat": -25.29027,
+        "lon": -57.61929,
+        "contacto": {
+            "tel": "021233282"
+        }
+    },
+    {
         "id": "cerro-arco",
         "titulo": "Cerru Arco",
         "ciudad": "Tobati",
@@ -42,6 +57,36 @@
         "lon": -54.59692,
         "contacto": {
             "tel": "51943515505"
+        }
+    },
+    {
+        "id": "manzana-rivera",
+        "titulo": "Manzana de la Rivera",
+        "ciudad": "Asunción",
+        "actividades": ["museos", "cultural"],
+        "desCorta": "Después del cambio de gobierno en 1989, surgen inquietudes de rescatar diversos sitios de la ciudad. En este contexto, un grupo de estudiantes de arquitectura inician la campaña Salvemos la Manzana frente al Palacio, debido al deterioro de las edificaciones que la conformaban, y en oposición a un proyecto que pretendía demolerlas, para construir una plaza en dicho lugar.",
+        "desLarga": "Después del cambio de gobierno en 1989, surgen inquietudes de rescatar diversos sitios de la ciudad. En este contexto, un grupo de estudiantes de arquitectura inician la campaña Salvemos la Manzana frente al Palacio, debido al deterioro de las edificaciones que la conformaban, y en oposición a un proyecto que pretendía demolerlas, para construir una plaza en dicho lugar.\nEn ocasión de las celebraciones por los 500 años del descubrimiento de América, en toda Iberoamérica se constituyeron comisiones para organizar las diversas acciones que se realizarían al respecto. \nLa Comisión V Centenario Paraguay, presidida por el arquitecto Juan Cristaldo, incluye el proyecto Casa Viola , entre los proyectos principales a ejecutarse, el cual fue presentado por el escritor Augusto Roa Bastos ante la Agencia Española de Cooperación Internacional. \nDurante la administración del intendente José Luis Alder, la Municipalidad de Asunción adquirió las propiedades que conforman el predio de la Manzana. Los trabajos de restauración comenzaron en 1991, año en que se refuncionalizan las edificaciones para convertirla en el Centro Cultural de la Ciudad. Su primer director fue el arquitecto Carlos Colombino. \nEn 1993 se ideó construir un teatro experimental en el predio baldío que formaba parte de la Manzana. Por tal motivo se convocó a un concurso de ideas para jóvenes arquitectos. El mismo fue ganado por Javier Corvalán, reconocido arquitecto hoy en día. El Salón Multiuso Federico García Lorca se inauguró finalmente el 26 de junio de 1999, con la visita al Paraguay del presidente español José María Aznar. \nEntre los servicios que el Centro Cultural de la Ciudad presta a la comunidad, figuran el Escenario Móvil, donado por el Sindicato de Actores Suecos y el Aula Magna de Información, Comunicación y Aprendizaje. \nDesde su fundación, el Centro se ha convertido en un sitio de obligada referencia para los amantes de la cultura.",
+        "califMedia": 4.5,
+        "cantVotos": 1207,
+        "lat": -25.27799,
+        "lon": -57.63771,
+        "contacto": {
+            "tel": "021442448"
+        }
+    },
+    {
+        "id": "salto-cristal",
+        "titulo": "Salto Cristal",
+        "ciudad": "Ybycui",
+        "actividades": ["arroyos", "eco aventura"],
+        "desCorta": "El Salto Cristal es uno de los lugares hermosos que tiene Paraguay que es accesible para el público. A diferencia de muchos otros saltos de agua también impresionantes, en este sitio es más fácil y más cercano a la capital, para llegar.",
+        "desLarga": "El Salto Cristal es uno de los lugares hermosos que tiene Paraguay que es accesible para el público. A diferencia de muchos otros saltos de agua también impresionantes, en este sitio es más fácil y más cercano a la capital, para llegar. \nDesde el año 2015 se van realizando mejoras en el complejo para poder acceder al salto, que anteriormente tenía su 'cuota de aventura' porque el descenso se hacía entre piedras y era bastante dificultoso. Hoy en día tiene escaleras y un sendero demarcado para poder disfrutar de la naturaleza. El Salto Cristal se ubica dentro del distrito de Ybycui, en la compañía Isla Alta, pero la forma de acceder es a través de La Colmena, la ciudad más cercana, es por ello que muchos asumen que el salto es un atractivo de La Colmena. \nSi bien su piscina de agua al pie del salto anteriormente era muy utilizada, debido a su profundidad y peligrosidad hoy en día se redujo el espacio y señalizó las áreas propicias para bañarse y refrescarse con las aguas, únicamente con chalecos salvavidas. El complejo (en la parte alta) cuenta con quinchos, baños sexados, área de camping y cantina.",
+        "califMedia": 4.3,
+        "cantVotos": 236,
+        "lat": -25.97758,
+        "lon": -56.73059,
+        "contacto": {
+            "tel": "595971674575"
         }
     }
 ]

@@ -157,7 +157,15 @@ export default defineComponent({
     const recomendedPlaces = ref([]);
 
     places.value.forEach((place, index) => {
-      if(index < 3 && place.id != props.id) recomendedPlaces.value.push(place);  
+      if(recomendedPlaces.value.length < 4 && place.id != props.id) {
+        let recomendado = false;
+        place.actividades.forEach(actividad => {
+          if(activePlace.value.actividades.find(activeActividad => activeActividad === actividad))
+            recomendado = true;
+        });
+        if(recomendado)
+          recomendedPlaces.value.push(place);  
+      }
     });
 
     return{
