@@ -1,0 +1,47 @@
+[
+    {
+        "id": "cerro-hu",
+        "titulo": "Cerru Hú",
+        "ciudad": "Paraguari",
+        "actividades": ["senderismo", "eco aventura", "cerros"],
+        "desCorta": "El Cerro Jhú (Cerro negro) es uno de los emblemas visuales de la ciudad de Paraguarí; donde uno de los paisajes más reconocidos es el de la ruta que une ésta ciudad con Piribebuy y que pasa entre este cerro y el Cerro de la Artillería.",
+        "desLarga": "El Cerro Jhú (Cerro negro) es uno de los emblemas visuales de la ciudad de Paraguarí; donde uno de los paisajes más reconocidos es el de la ruta que une ésta ciudad con Piribebuy y que pasa entre este cerro y el Cerro de la Artillería. \nEl Cerro Jhú en los últimos años se volvió un hito para los amantes que gustan de ascender o escalar por senderos sinuosos y exigentes, pero el precio de llegar a su cima de 375 metros para disfrutar de la vista completa, vale todo el esfuerzo. \nExisten dos caminos para ascender a esta elevación natural donde podrás encontrar dos vistas completamente diferentes, siendo la del Barrio San Miguel la más importante porque uno tiene a la ciudad de Paraguarí de frente y se puede observar la magnificencia del valle en la parte posterior, y ahí se aprecian el Cerro Mbatoví, el Cerro Santo Tomás y Cerro Soto. La otra vista es accediendo por La Casita del Cerro, donde tendrás una panorámica del mencionado valle. \nAmbos caminos guían a lugares con explanadas en la cima del cerro, ideales para montar campamento y disfrutar de únicos atardeceres o amaneceres. \nEl Cerro Jhú es una formación de areniscas arcósicas que forma parte de un conglomerado de formaciones geológicas del Paraguarí. Es uno de los cerros más importantes del distrito, junto al Cerro Perõ, Cerro Mba`e, Cerro Mbatoví, Cerro Santo Tomás, Cerro de la Artillería, Cerro Soto y otros. \nVisitar y pasar la noche en el Cerro Jhú, es toda una experiencia altamente recomendable; sin embargo, es importante mantener la limpieza y cuidados del lugar, además de conocer sobre el sitio, por lo que es recomendable el acompañamiento de un guía experimentado.",
+        "califMedia": 4.2,
+        "cantVotos": 520,
+        "lat": -25.60948,
+        "lon": -57.12832,
+        "contacto": {
+            "tel": "595981331256"
+        }
+    },
+    {
+        "id": "cerro-arco",
+        "titulo": "Cerru Arco",
+        "ciudad": "Tobati",
+        "actividades": ["senderismo", "cerros"],
+        "desCorta": "“El Cerro Arco” tiene como particularidad que la cima presenta la forma de un arco, y sobre el mismo flamea una bandera paraguaya, el cual lo hace uno de los favoritos de los visitantes para hacer fotos y videos.",
+        "desLarga": "“El Cerro Arco” tiene como particularidad que la cima presenta la forma de un arco, y sobre el mismo flamea una bandera paraguaya, el cual lo hace uno de los favoritos de los visitantes para hacer fotos y videos.",
+        "califMedia": 4,
+        "cantVotos": 328,
+        "lat": -25.29115,
+        "lon": -57.10469,
+        "contacto": {
+            "tel": "595982802276"
+        }
+    },
+    {
+        "id": "represa-itaipu",
+        "titulo": "Itaipu Binacional",
+        "ciudad": "Hernandarias",
+        "actividades": ["cultural"],
+        "desCorta": "La represa hidroeléctrica de Itaipú es una represa binacional de Paraguay y Brasil, en su frontera sobre el río Paraná. Itaipú sigue siendo actualmente la central hidroeléctrica con la más alta producción de energía eléctrica del mundo.",
+        "desLarga": "La represa hidroeléctrica de Itaipú (del idioma guaraní: 'piedra que suena') es una represa binacional de Paraguay y Brasil, en su frontera sobre el río Paraná. Itaipú ha sido por mucho tiempo la Central hidroeléctrica más grande del mundo, hasta 2011 cuando fue superado por la Presa de las Tres Gargantas en China. Sin embargo, sigue siendo actualmente la central hidroeléctrica con la más alta producción de energía eléctrica del mundo. Es la central hidroeléctrica más grande de los hemisferios Sur y Occidental. \nItaipú Binacional ostenta el título de 'mayor productora de energía del planeta' con 103.098.366 MWh producidos en el 2015. También es la represa de mayor producción acumulada, con 2,5 mil millones de MWh desde el inicio de la operación. La represa de Itaipú tiene una potencia de generación electrohidráulica instalada de 14 000 MW, con 20 turbinas generadoras de 700 MW y su construcción demandó un costo de 36 mil millones de dólares para los dos países socios. \nSu murallón, hecho de hormigón, roca y tierra, se emplaza a 14 km al norte del Puente de la Amistad, lindando con la ciudad paraguaya de Hernandarias, en el Departamento Alto Paraná en su margen occidental, y con Foz do Iguaçu, en el estado de Paraná, Brasil, por su margen oriental; asimismo, está 16,2 km al norte del puente que une la ciudad de Foz do Iguaçu con la ciudad argentina de Puerto Iguazú. Posee un desnivel de 120 m de caída bruta.\nEl área implicada en el proyecto se extiende desde Foz do Iguaçu, en el Brasil, y Ciudad del Este, en el Paraguay, por el sur, hasta Guaíra (Brasil) y Salto del Guairá (Paraguay), por el norte. El lago artificial de la represa contiene 29 000 hm³ de agua, con unos 200 km de extensión en línea recta, y un área aproximada de 1400 km². Al construirse dejó extintos los Saltos del Guairá pero cuando el nivel baja pueden verse una parte de estas cascadas, que eran las más grandes del río Paraná. \nLa energía generada por Itaipú destinada a Brasil es administrada por la empresa Eletrobrás, y la energía destinada a Paraguay por la Administración Nacional de Electricidad (ANDE).",
+        "califMedia": 4.7,
+        "cantVotos": 874,
+        "lat": -25.41374,
+        "lon": -54.59692,
+        "contacto": {
+            "tel": "51943515505"
+        }
+    }
+]

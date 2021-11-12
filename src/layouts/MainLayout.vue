@@ -3,7 +3,16 @@ import { ref } from 'vue';
   <q-layout view="hHh lpR fff">
     <q-header reveal class="bg-primary text-white q-py-md">
       <q-toolbar class="container row justify-between">
-        <q-toolbar-title class="col-3 text-blue">TURISMO INTERNO</q-toolbar-title>
+        <q-toolbar-title class="col-3 text-blue">
+          <q-btn 
+          flat 
+          size="lg" 
+          :ripple="false"
+          no-wrap
+          to="/"
+          class="full-width text-bold text-red"
+          >JAHA<span class="text-white">·</span><span class="text-blue">PY</span></q-btn>
+        </q-toolbar-title>
 
         <q-input
           dark
@@ -50,7 +59,7 @@ import { ref } from 'vue';
 
     <q-footer bordered class="bg-secondary text-white q-py-xl">
       <q-toolbar class="container row justify-between">
-        <q-toolbar-title class="col-3 text-white">TURISMO INTERNO</q-toolbar-title>
+        <q-toolbar-title class="col-3 text-red text-h4">JAHA<span class="text-white">·</span><span class="text-blue">PY</span></q-toolbar-title>
 
         <div class="col-3 full-height">
           <div class="text-weight-bolder text-subtitle1">

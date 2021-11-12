@@ -16,7 +16,7 @@
           class="bg-primary"
           :autoplay="5000"
         >
-          <q-carousel-slide :name="1" class="column no-wrap">
+          <q-carousel-slide v-for="(slide, index) in Slides" :name="index" class="column no-wrap" :key="index">
             <div
               class="
                 row
@@ -29,99 +29,27 @@
             >
               <div 
               class="fit card-gallery"
-              :style="{ 'background-image': 'url(https://cdn.quasar.dev/img/mountains.jpg)' }"
-              v-for="index in 2" :key="index"
+              :style="{ 'background-image': `url(imgs/${ sitio.id }/cover.png)` }"
+              v-for="sitio in slide" :key="sitio.id"
               >
                 <q-card class="fit content-gallery bg-transparent">
                   <q-card-section class="fit" horizontal>
                     <q-card-section >
-                      <div class="text-h5">Cerro Hu</div>
-                      <div class="text-subtitle2">Paraguarí</div>
+                      <div class="text-h5">{{ sitio.titulo }}</div>
+                      <div class="text-subtitle2">{{ sitio.ciudad }}</div>
                       <div class="text-caption">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae quas ratione. Aspernatur sunt impedit cumque sapiente iure, mollitia aperiam accusantium excepturi! Earum sapiente in dolore illum reiciendis error repellat!
+                        {{ sitio.desCorta }}
                       </div>
                     </q-card-section>
 
                     <q-card-section class="col-6">
-                      <q-img
-                        class="full-height resaltar-hover"
-                        src="https://cdn.quasar.dev/img/mountains.jpg"
-                      />
-                    </q-card-section>
-                  </q-card-section>
-                </q-card>
-              </div>
-            </div>
-          </q-carousel-slide>
-          <q-carousel-slide :name="2" class="column no-wrap">
-            <div
-              class="
-                row
-                fit
-                justify-start
-                items-center
-                q-gutter-sm q-col-gutter
-                no-wrap
-              "
-            >
-              <div 
-              class="fit card-gallery"
-              :style="{ 'background-image': 'url(https://cdn.quasar.dev/img/quasar.jpg)' }"
-              v-for="index in 2" :key="index"
-              >
-                <q-card class="fit content-gallery bg-transparent">
-                  <q-card-section class="fit" horizontal>
-                    <q-card-section >
-                      <div class="text-h5">Quasar</div>
-                      <div class="text-subtitle2">Espacio Interestelar</div>
-                      <div class="text-caption">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae quas ratione. Aspernatur sunt impedit cumque sapiente iure, mollitia aperiam accusantium excepturi! Earum sapiente in dolore illum reiciendis error repellat!
-                      </div>
-                    </q-card-section>
-
-                    <q-card-section class="col-6">
-                      <q-img
-                        class="full-height resaltar-hover"
-                        src="https://cdn.quasar.dev/img/quasar.jpg"
-                      />
-                    </q-card-section>
-                  </q-card-section>
-                </q-card>
-              </div>
-            </div>
-          </q-carousel-slide>
-
-          <q-carousel-slide :name="3" class="column no-wrap">
-            <div
-              class="
-                row
-                fit
-                justify-start
-                items-center
-                q-gutter-sm q-col-gutter
-                no-wrap
-              "
-            >
-              <div 
-              class="fit card-gallery"
-              :style="{ 'background-image': 'url(http://www.mandua.com.py/userfiles/images/Hitos-1.jpg)' }"
-              v-for="index in 2" :key="index"
-              >
-                <q-card class="fit content-gallery bg-transparent">
-                  <q-card-section class="fit" horizontal>
-                    <q-card-section >
-                      <div class="text-h5">Represa Itaipu</div>
-                      <div class="text-subtitle2">Hernandarias</div>
-                      <div class="text-caption">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae quas ratione. Aspernatur sunt impedit cumque sapiente iure, mollitia aperiam accusantium excepturi! Earum sapiente in dolore illum reiciendis error repellat!
-                      </div>
-                    </q-card-section>
-
-                    <q-card-section class="col-6">
-                      <q-img
-                        class="full-height resaltar-hover"
-                        src="http://www.mandua.com.py/userfiles/images/Hitos-1.jpg"
-                      />
+                      <router-link :to="'/sitio/' + sitio.id">
+                        
+                        <q-img
+                          class="full-height resaltar-hover"
+                          :src="`imgs/${ sitio.id }/cover.png`"
+                        />
+                      </router-link>
                     </q-card-section>
                   </q-card-section>
                 </q-card>
@@ -129,16 +57,28 @@
             </div>
           </q-carousel-slide>
           
+
+          
+          
         </q-carousel>
 </template>
 
 <script> 
-import { defineComponent, ref } from "vue";
+import { computed, ref } from "vue";
+import { useStore } from 'vuex'
+import { matrizGrid } from '../composables/matrizGrid'
 
 export default {
   setup(){
+    const store = useStore();
+    const places = computed(() => store.getters['pageData/getPlaces']);
+
+    const Slides = ref(matrizGrid(places.value, 2));
+
     return{
-      slide: ref(1)
+      slide: ref(1),
+      Slides,
+      places
     }
   }
 };
