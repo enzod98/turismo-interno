@@ -139,9 +139,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Quasar App`,
-        short_name: `Quasar App`,
-        description: `Proyecto final - Turismo interno`,
+        name: `Jaha Py`,
+        short_name: `Jaha PY`,
+        description: `Web Jaha Py. Proyecto final - Turismo interno`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
